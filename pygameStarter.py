@@ -81,7 +81,7 @@ while running:
     '''While loop updates'''
     screen.fill((255, 255, 255))
     '''DrawStuff'''
-    map.UpdateOffset(-main_cam.pos[0], -main_cam.pos[1])
+    
     '''Updating done'''
     G_SPR_MAP.draw(screen)
     G_SPR_UI.draw(screen)
